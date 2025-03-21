@@ -102,7 +102,7 @@ def sendEmail(String subject, String body) {
         subject: subject,
         body: body,
         recipientProviders: [[$class: 'DevelopersRecipientProvider']],
-        to: "${USER_EMAIL}",
+        to: "alphatushar1912@gmail.com",  // Directly specify the email
         replyTo: 'no-reply@jenkins.com'
     )
 }
